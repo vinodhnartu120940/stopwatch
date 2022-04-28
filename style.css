@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+button {
+    width: 121px;
+    border-radius: 14px;
+    background-color: green;
+    height: 42px;
+    border: none;
+    color: #afff00;
+    font-size: 20px;
+    padding: revert-layer;
+    margin: 5px;
+    margin-right: 86px;
+  }
+
+.element {
+    border: none solid green;
+    border: 1px solid yellow;
+    width: 35rem;
+    height: 5rem;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

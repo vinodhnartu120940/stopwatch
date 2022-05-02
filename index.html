@@ -2,40 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StopWatch</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StopWatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <form action="">
-            <div class="element">
-                <span id="hr">00</span>
-                <span>:</span>
-                <span id="min">00</span>
-                <span>:</span>
-                <span id="sec">00</span>
+  <div class="container">
+    <form action="">
+      <div class="element">
+        <span id="hr">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+      </div>
 
-            </div>
+      <div>
+        <input class="button" type="button" id="tostart" text="start" onclick="startTimer()" value="Start" />
+        <input class="button" type="button" id="tostart" text="stop" onclick="stopTimer()" style="
+            background-color: #3c3c21" value="Stop" />
+        <input class="button" type="button" id="tostart" text="clear" onclick="resetTimer()"
+          style="background-color: red" value="Reset" />
+      </div>
+    </form>
+  </div>
 
-            <div>
-                <button id="start" onclick="startTimer()">Start </button>
-                <button style="background-color: yellow;color: black;">Stop </button>
-                <button style="background-color: red;">Reset</button>
-            </div>
-        </form>
-
-
-    </div>
-
-
-
-    <script src="index.js"></script>
+  <script src="index.js"></script>
 </body>
-
-
 
 </html>

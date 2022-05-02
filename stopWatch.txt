@@ -1,2 +1,8 @@
 1)How can i get the seconds to reset to 0 when they reach 60?A:-sec=sec-60
 https://stackoverflow.com/questions/56465044/how-can-i-get-the-seconds-to-reset-to-0-when-they-reach-60
+
+2)Create a stopwatch using setInterval and clearInterval()
+https://www.youtube.com/watch?v=3Re18DCjJ4s
+
+3)Understand setInterval() & clearInterval() Method in JavaScript Exercise?
+https://www.youtube.com/watch?v=rBpRtu7GgpQ

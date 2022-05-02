@@ -7,18 +7,19 @@
     background-color: blue;
 }
 
-button {
+.button {
     width: 121px;
     border-radius: 14px;
     background-color: green;
     height: 42px;
     border: none;
-    color: #afff00;
+    color: whitesmoke;
     font-size: 20px;
     padding: revert-layer;
     margin: 5px;
     margin-right: 86px;
-  }
+    font-weight: bold;
+}
 
 .element {
     border: none solid green;
